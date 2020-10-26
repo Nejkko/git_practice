@@ -1,0 +1,1 @@
+Hello Git and GitHub. This is a test readme, created for my first test repository on GitHub. Cheers.
