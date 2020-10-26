@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+
+/*BLUE VARIATION*/
+body {
+    background-color: #70B6EA;
+}
+header {
+    background-color: #70B6EA;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+header h1 {
+    font-family: 'Grandstander', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+header li {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border: #F1B5B5 solid 4px;
+    background-color: #9FD5F1;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.colours {
+    background-color: #CA937F;
+}
+.colours li {
+    display: inline-block;
+    position: relative;
+    padding: 30px 30px;
+    margin: 30px 30px;
+    width: 300px;
+    text-align: center;
+    font-size: 22px;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+
+}
+.colours h2 {
+    font-family: 'Grandstander', cursive;
+    font-size: 45px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.fonts {
+
+    position: relative;
+    background-color: #F1B5B5;
+    top: 5px;
+    padding: 10px;
+}
+.fonts h2 {
+    font-size: 45px;
+    font-family: 'Grandstander', cursive;
+    left: 20px;
+    position: relative;
+}
+.fonts .roboto, .grandstander, .playfair{
+    display: inline-block;
+    position: relative;
+    width: 600px;
+    line-height: 25px;
+    padding: 10px 10px;
+}
+.fonts .robotoheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.fonts .robotoregular400 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.fonts .robotoregular {
+    font-family: 'Roboto', sans-serif;
+}
+.fonts .robotoitalic400 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+.fonts .robotoitalic {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+.fonts .robotobold700 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.fonts .robotobold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.fonts .grandstanderheading {
+    font-family: 'Grandstander', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.fonts .grandregular400 {
+    font-family: 'Grandstander', cursive;
+    font-weight: normal;
+    font-size: 20px;
+}
+.fonts .grandregular {
+    font-family: 'Grandstander', cursive;
+    font-weight: normal;
+}
+.fonts .granditalic400 {
+    font-family: 'Grandstander', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    font-style: italic;
+}
+.fonts .granditalic {
+    font-family: 'Grandstander', cursive;
+    font-weight: normal;
+    font-style: italic;
+}
+.fonts .grandbold700 {
+    font-family: 'Grandstander', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fonts .grandbold {
+    font-family: 'Grandstander', cursive;
+    font-weight: bold;
+}
+.fonts .playfairheading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.fonts .playregular400 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.fonts .playregular {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+.fonts .playitalic400 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 20px;
+    font-style: italic;
+}
+.fonts .playitalic {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-style: italic;
+}
+.fonts .playblack900 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.fonts .playblack {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+.styleguide {
+
+    position: relative;
+    top: 25px;
+    background-color: #E6DCE7;
+    padding: 10px;
+}
+.styleguide h2 {
+    font-size: 45px;
+    font-family: 'Grandstander', cursive;
+    left: 20px;
+    position: relative;
+}
+.styleguide h3 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.styleguide h3, .styleguide p {
+    position: relative;
+    padding: 1px 10px;
+}
+footer{
+    padding: 15px;
+    position: relative;
+    top: 20px;
+}
+footer p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+#beachbrown {
+    background-color: #CA937F;
+    color: black;
+    line-height: 30px;
+}
+#lightpink {
+    background-color: #F1B5B5;
+    color: black;
+    line-height: 30px; 
+}
+#seagrey {
+    background-color: #E6DCE7;
+    color: black;
+    line-height: 30px; 
+}
+#seablue {
+    background-color: #9FD5F1;
+    color: black;
+    line-height: 30px; 
+}
+#skyblue {
+    background-color: #70B6EA;
+    color: black;
+    line-height: 30px; 
+}
+#stylemheading {
+    font-family: 'Grandstander', cursive;
+font-size: 60px;
+font-weight: bold;
+}
+#stylecheading {
+    font-family: 'Grandstander', cursive;
+font-size: 45px;
+font-weight: bold;
+}
+#stylesubch {
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+#maintext {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+line-height: 25px;
+font-weight: normal;
+}
+#navbuttons{
+text-align: center;
+display: inline-block;
+padding: 10px 20px;
+border: #F1B5B5 solid 4px;
+background-color: #9FD5F1;
+font-size: 25px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+#fontlinks{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-style: italic;
+}
+
+/*Primer kako nastaviti slikovno gradivo, da se le-to prilagodi velikosti bralnika
+.container {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }*/

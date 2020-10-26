@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nejc's website guide</title>
+    <link rel="stylesheet" href="resources\css\index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+
+<!--navigation bar with some clickable buttons leading to different color variations-->
+<header>
+    <nav>
+        <h1>Nejc's Website Guide</h1>
+        <ul>
+            <li>Variation: Red</li>
+            <li>Variation: Green</li>
+        </ul>
+    </nav>
+</header>
+
+<!--contains color styles, fonts, buttons, images,...-->
+<body>
+    <div class="colours">
+    <h2>Colours</h2>
+    <ul>
+        <li id="beachbrown">Beach Brown  <br>#CA937F</li>
+        <li id="lightpink">Light Pink <br>#F1B5B5</li>
+        <li id="seagrey">Sea Grey<br>#E6DCE7</li>
+        <li id="seablue">Sea Blue<br>#9FD5F1</li>
+        <li id="skyblue">Sky Blue<br>#70B6EA</li>
+    </ul>
+    </div>
+    <div class="fonts">
+        <h2>Font Styles</h2>
+        <div class="roboto">
+        <h3 class="robotoheading">Roboto</h3>
+        <h4 class="robotoregular400">Roboto Regular 400</h4>
+        <p class="robotoregular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h4 class="robotoitalic400">Roboto Italic 400</h4>
+        <p class="robotoitalic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h4 class="robotobold700">Roboto Bold 700</h4>
+        <p class="robotobold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="grandstander">
+            <h3 class="grandstanderheading">Grandstander</h3>
+            <h4 class="grandregular400">Grandstander Regular 400</h4>
+            <p class="grandregular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4 class="granditalic400">Grandstander Italic 400</h4>
+            <p class="granditalic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4 class="grandbold700">Grandstander Bold 700</h4>
+            <p class="grandbold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="playfair">
+            <h3 class="playfairheading">Playfair Display</h3>
+            <h4 class="playregular400">Playfair Display Regular 400</h4>
+            <p class="playregular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4 class="playitalic400">Playfair Display Italic 400</h4>
+            <p class="playitalic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4 class="playblack900">Playfair Display Black 900</h4>
+            <p class="playblack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+    <div class="styleguide">
+        <h2>Style Guide For Specific Elements</h2>
+        <p>For using these particular styles, copy these links into the head of your HTML document: </p>
+        <span id="fontlinks"><ul>
+        <li>&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"&gt;</li>
+        <li> &lt;link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"&gt;</li>
+        <li>&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet"&gt;</li>
+        </ul></span>
+        <h3 id="stylemheading">Main Heading <span class="italic">&lt;h1&gt;</span></h3>
+        <p> font-family: 'Grandstander', cursive;<br>
+            font-size: 60px;<br>
+            font-weight: bold;</p>
+        <h3 id="stylecheading">Content Heading <span class="italic">&lt;h2&gt;</span></h3>
+        <p>font-family: 'Grandstander', cursive;<br>
+            font-size: 45px;<br>
+            font-weight: bold;
+        </p>
+        <h3 id="stylesubch">Sub-Content Heading <span class="italic">&lt;h3&gt;</span></h3>
+        <p>font-family: 'Roboto', sans-serif;<br>
+            font-size: 20px;<br>
+            font-weight: bold;
+        </p>
+        <h3 id="maintext">Main Text</h3>
+        <p>font-family: 'Roboto', sans-serif;<br>
+            line-height: 25px;
+        </p>
+        <h3 id="navbuttons">Navigation Banner With Buttons</h3>
+        <p> text-align: center; <br>
+            display: inline-block;<br>
+            padding: 10px 20px;<br>
+            border: #F1B5B5 solid 4px;<br>
+            background-color: #9FD5F1;<br>
+            font-size: 25px;<br>
+            font-family: 'Roboto', sans-serif;<br>
+            font-weight: bold;</p>
+    </div>
+</body>
+
+<!--contains contact info, a nice footer banner-->
+<footer>
+<p>Nejc V<br>Ljubljana 2020</p>
+</footer>
+
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nejc's Cheat Sheet</title>
+    <link rel="stylesheet" href="resources\css\style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@400;700&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <div  class="maintitle">
+            <h1>Nejc's Cheat Sheet</h1>
+        </div>
+        <nav>
+            <div class="contentbuttons">
+                <ul>
+                <li class="button"><a href=#home>Home</a></li>
+                <li class="button"><a href="#content">Content</a></li>
+                <li class="button"><a href="#aboutme">About me</a></li>
+                <li class="button"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!--<div class="contentbuttons">
+                <button class="button"><a href=#introduction>Introduction</a></button>
+                <button class="button"><a href="#content">Content</a></button>
+                <button class="button"><a href="#aboutme">About me</a></button>
+                <button class="button"><a href="#contact">Contact</a></button>
+            </div>-->
+        </nav>
+    </header>
+    <div id="home"></div>
+    <!-- Kratek uvod-->
+    <div class="content">
+    <h2 id="introduction">Introduction</h2>
+        <p>Hello, I am Nejc and I am learning how to develop websites with the help of Codecademy.
+            This is my challenge project. Hope you will enjoy my cheat sheets for HTML and CSS.
+        </p>
+    <div>
+        <h2 id="content">Content</h2>
+        <div class="contentbuttons">
+            <button class="cbutton"><a href="#html">HTML</a></button>
+            <button class="cbutton"><a href="#css">CSS</a></button>
+        </div>    
+
+        <!-- Tabela z oznakami za html elemente na splošno-->
+
+            <h3 id="html">HTML ELEMENTS</h3>
+            <p>Here you will find different HTML elements used in general in coding</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Function</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tele">&lt;head&gt;</td>
+                        <td>Contains general information about an HTML page. The information itself is not displayed</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;title&gt;</td>
+                        <td>Contains the title of an HTML document. It is displayed in the browser's title bar/tab</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tele">&lt;body&gt;</td>
+                        <td>Represents the content of an HTML document. There can only be one &lt;body&gt; element in a document </td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;div&gt;</td>
+                        <td>Short for "division", it divides an HTML document into sections</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;h1&gt;... &lt;h6&gt;</td>
+                        <td>Inserts headings of various sizes (h1 is the largest while h6 is the smallest)</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;p&gt;</td>
+                        <td>Paragraph element that contains and displays a block of text</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;br&gt;</td>
+                        <td>Creates a line break in text</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;li&gt;</td>
+                        <td>Creates a list item</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;ul&gt;, &lt;ol&gt;</td>
+                        <td>Used with &lt;li&gt;, &lt;ul&gt; creates an unordered list while &lt;ol&gt; creates an ordered list inside the list item</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;video&gt;</td>
+                        <td>Embeds a media player for video playback. Requires the src attribute for video URL</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;img&gt;</td>
+                        <td>Inserts an image. Requires the src attribute for image URL</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;a&gt;</td>
+                        <td>Short for "anchor", it creates a hyperlink in an HTML document with the href attribute</td>
+                    </tr>
+                    <tr>
+                        <td class="tele">&lt;nav&gt;</td>
+                        <td>Represents a section with navigation links</td>
+                    </tr>
+
+            </tbody>
+        </table>
+
+        <!-- Tabela s html elementi za ustvarjanje tabel-->
+        
+        <h3>HTML TABLES</h3>
+        <p>Here you will find various HTML elements used in coding for creating tables</p>
+        <table>
+            <thead>
+                <th>Element</th>
+                <th>Function</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tele">&lt;table&gt;</td>
+                    <td>Contains content that is used to represent columns and rows of a table</td>
+                </tr>
+                <tr>
+                    <td class="tele">&lt;thead&gt;</td>
+                    <td>Defines the headings of table columns nested in table rows</td>
+                </tr>
+                <tr>
+                    <td class="tele">&lt;tbody&gt;</td>
+                    <td>Contains table data other than table heading and table footer content</td>
+                </tr>
+                <tr>
+                    <td class="tele">&lt;tfoot&gt;</td>
+                    <td>Short for footer, it is used for summarizing content at the end of a table</td>
+                </tr>
+                <tr>
+                    <td class="tele">&lt;tr&gt;</td>
+                    <td>Used for adding rows to a table</td>
+                </tr>
+                <tr>
+                    <td class="tele">&lt;td&gt;</td>
+                    <td>Short for table data, it adds a cell of data to a table. Must be enclosed in a &lt;tr&gt; element</td>
+                </tr>
+                <tr>
+                    <td class="tele">&lt;th&gt;</td>
+                    <td>Creates a heading for rows and columns of a table. Must be enclosed in a &lt;tr&gt; element</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Tabela s html lastnostmi-->
+
+        <h3>HTML ATTRIBUTES</h3>
+        <p>Here you will find attributes and their functions</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Related to element</th>
+                    <th>Function</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tele">src</td>
+                    <td class="ttags">&lt;video&gt;, &lt;img&gt;</td>
+                    <td>Contains the URL to the video</td>
+                </tr>
+                <tr>
+                    <td class="tele">controls</td>
+                    <td class="ttags">&lt;video&gt;</td>
+                    <td>Displays video controls in the media player</td>
+                </tr>
+                <tr>
+                    <td class="tele">href</td>
+                    <td class="ttags">&lt;a&gt;</td>
+                    <td>Short for hyperlink reference, it contains a path for &lt;a&gt; to follow</td>
+                </tr>
+                <tr>
+                    <td class="tele">target</td>
+                    <td class="ttags">&lt;a&gt;</td>
+                    <td>Target value of _blank opens the hyperlink in a new tab</td>
+                </tr>
+                <tr>
+                    <td class="tele">rowspan</td>
+                    <td class="ttags">&lt;th&gt;, &lt;td&gt;</td>
+                    <td>Indicates how many rows a particular cell should span within the table</td>
+                </tr>
+                <tr>
+                    <td class="tele">colspan</td>
+                    <td class="ttags">&lt;th&gt;, &lt;td&gt;</td>
+                    <td>Indicates how many columns a particular cell should span within the table</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Opis css selektorjev in pravil-->
+
+    <h3 id="css">CSS SELECTORS AND RULES</h3>
+        <p> Here you will find a short introduction to CSS selectors and certain rules.</p>
+    <h4>Type, Class and ID Selectors</h4>
+        <p>With adding type, class or ID attributes to our code, we can use these attributes as CSS selectors.
+    This allows us to specifically select which areas of our code we would like to stylise. We select a certain type of element
+    by typing their name in our style.css file. By adding a <span class="period">period (.)</span> before the class name in our style.css file,
+    we select the specific element with the class attribute that we wish to modify.
+    If we wish to use the ID attribute as a selector, we add a <span class="hashtag"> hashtag (#) </span> in front of the ID name. </p>
+    <h4>Selector Specificity</h4>
+        <p class="test">The selectors are ranked by their specificity. ID selectors have the highest specificity among all selectors,
+    followed by class selectors, followed by type selectors. This means that if a class
+    selector and an ID selector were both trying to modify the color of the text, only the ID selector
+    would be applied (see image #1)   </p>
+
+        <!-- Tabela z raznimi css komandami-->
+
+    <h3>CSS PROPERTIES</h3>
+    <p>Here you will find a short list of CSS properties and their respective functions</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Function</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tele">font-size</td>
+                    <td>Used to set text sizes (normally in pixels)</td>
+                </tr>
+                <tr>
+                    <td class="tele">font-family</td>
+                    <td>Used to specify a font for your text</td>
+                </tr>
+                <tr>
+                    <td class="tele">font-weight</td>
+                    <td>Used to set the boldness of text (bold or normal)</td>
+                </tr>
+                <tr>
+                    <td class="tele">text-align</td>
+                    <td>Used to set the text alignment of inline contents (left, right or center)</td>
+                </tr>
+                <tr>
+                    <td class="tele">opacity</td>
+                    <td>Used to control the transparency of an element</td>
+                </tr>
+                <tr>
+                    <td class="tele">background-color</td>
+                    <td>Used to set the background color of elements</td>
+                </tr>
+                <tr>
+                    <td class="tele">background-image</td>
+                    <td>Sets the background image of an element</td>
+                </tr>
+                <tr>
+                    <td class="tele">color</td>
+                    <td>Used to set color values for elements</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- O meni-->
+
+        <h2 id="aboutme">About Me</h2>
+        <p>I have finished my masters in Animal Science this year and I am currently searching for a job.
+            In the meantime, I am learning how to develop websites. I come from Slovenia and am an avid hiker, choir singer and lover of animals.
+        </p>
+        <footer>
+        <div id=contact>
+            <p class="contact">Nejc V</p>
+            <p>Ljubljana 2020</p>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
